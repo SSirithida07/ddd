@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonQ"
+        android:layout_width="176dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="256dp"
+        android:backgroundTint="#2196F3"
+        android:text="Calculation Mode"
+        android:textColor="#FAF6F6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonG"
+        android:layout_width="176dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="392dp"
+        android:backgroundTint="#2196F3"
+        android:text="Practice  Mode"
+        android:textColor="#F4EDED"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="282dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="160dp"
+        android:text="Electric Calculation"
+        android:textColor="#070707"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
